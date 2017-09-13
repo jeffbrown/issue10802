@@ -27,6 +27,6 @@ class PersonSpec extends Specification {
 
         and:
         p.errors['firstName'].code == 'nullable'
-        p.errors['firstName'].code == 'nullable'
+        p.errors['lastName'].code == 'nullable'
     }
 }
